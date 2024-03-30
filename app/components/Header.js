@@ -23,9 +23,11 @@ const Header = () => {
             </div>
     
             <div className="flex  justify-between  gap-5">
-              <button className="cursor-pointer bg-green-500/70 px-9 py-[4px] rounded-lg btn-hover-animate">
+              <button className="cursor-pointer bg-orange px-9 py-[4px] rounded-lg btn-hover-animate">
                 <Link href="/login">Sign in</Link>
+
               </button>
+              
     
               <div>
                 <Image src={"/navlogo.svg"} alt="logo" width={48} height={48} className="cursor-pointer" />
