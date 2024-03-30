@@ -24,7 +24,7 @@ const Header = () => {
     
             <div className="flex  justify-between  gap-5">
               <button className="cursor-pointer bg-green-500/70 px-9 py-[4px] rounded-lg btn-hover-animate">
-                <Link href="/login">Sign Up</Link>
+                <Link href="/login">Sign in</Link>
               </button>
     
               <div>
